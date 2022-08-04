@@ -1,17 +1,22 @@
-/** @type import('hardhat/config').HardhatUserConfig */
+/**
+* @type import('hardhat/config').HardhatUserConfig
+*/
 
 require('dotenv').config();
 require("@nomiclabs/hardhat-ethers");
+require("./scripts/deploy.js");
+require("./scripts/mint.js");
 
 const { ALCHEMY_KEY, ACCOUNT_PRIVATE_KEY } = process.env;
 
 module.exports = {
-  solidity: "0.8.9",
-  defaultNetwork: "rinkeby",
-  networks: {
+   solidity: "0.8.0",
+   defaultNetwork: "rinkeby",
+   networks: {
+    hardhat: {},
     rinkeby: {
       url: `https://eth-rinkeby.alchemyapi.io/v2/${ALCHEMY_KEY}`,
-      accounts: [`0x${ACCOUNT_PRIVATE_KEY}`],
+      accounts: [`0x${ACCOUNT_PRIVATE_KEY}`]
     },
     ethereum: {
       chainId: 1,
@@ -19,4 +24,4 @@ module.exports = {
       accounts: [`0x${ACCOUNT_PRIVATE_KEY}`]
     },
   },
-};
+}
