@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "@openzeppelin/contracts": "^4.7.2",
-    "dotenv": "^16.0.1"
+    "dotenv": "^16.0.1",
+    "ipfs-car": "^0.8.0"
   }
 }

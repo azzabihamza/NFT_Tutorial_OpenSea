@@ -1,0 +1,35 @@
+{
+    "attributes" : [
+        {
+           "trait_type" : "level",
+           "value" : 3
+        },
+        {
+           "trait_type" : "stamina",
+           "value" : 11.7
+        },
+        {
+           "trait_type" : "personality",
+           "value" : "sleepy"
+        },
+        {
+           "display_type" : "boost_number",
+           "trait_type" : "aqua_power",
+           "value" : 30
+        },
+        {
+           "display_type" : "boost_percentage",
+           "trait_type" : "stamina_increase",
+           "value" : 15
+        },
+        {
+           "display_type" : "number",
+           "trait_type" : "generation",
+           "value" : 1
+        }
+     ],
+    "description" : "Pan Pan CAKEEEE <3 <3",
+    "external_url" : "https://example.com/?token_id=1",
+    "image" : "https://bafybeigopdog4kn2wnp53ju2mlh4wsyh4u5cnforaotourjbtbvijqwj5i.ipfs.nftstorage.link/images/1.png",
+    "name" : "PanCake"
+ }
